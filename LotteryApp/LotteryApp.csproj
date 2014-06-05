@@ -124,6 +124,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Content Include="Dll\Microsoft.ReportViewer.ProcessingObjectModel.DLL" />
+    <Content Include="Dll\Microsoft.SqlServer.Types.dll" />
+    <Content Include="Dll\Net.SourceForge.Koogra.dll" />
     <Content Include="Dll\System.Data.SQLite.dll" />
     <Content Include="rptOdds.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
