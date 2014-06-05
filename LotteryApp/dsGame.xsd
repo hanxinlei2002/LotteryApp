@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGame" targetNamespace="http://tempuri.org/dsGame.xsd" xmlns:mstns="http://tempuri.org/dsGame.xsd" xmlns="http://tempuri.org/dsGame.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGame" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsGame" msprop:Generator_UserDSName="dsGame">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtGameDetail" msprop:Generator_TableClassName="dtGameDetailDataTable" msprop:Generator_TableVarName="tabledtGameDetail" msprop:Generator_RowChangedName="dtGameDetailRowChanged" msprop:Generator_TablePropName="dtGameDetail" msprop:Generator_RowDeletingName="dtGameDetailRowDeleting" msprop:Generator_RowChangingName="dtGameDetailRowChanging" msprop:Generator_RowEvHandlerName="dtGameDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="dtGameDetailRowDeleted" msprop:Generator_RowClassName="dtGameDetailRow" msprop:Generator_UserTableName="dtGameDetail" msprop:Generator_RowEvArgName="dtGameDetailRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ChangeTime" msprop:Generator_ColumnVarNameInTable="columnChangeTime" msprop:Generator_ColumnPropNameInRow="ChangeTime" msprop:Generator_ColumnPropNameInTable="ChangeTimeColumn" msprop:Generator_UserColumnName="ChangeTime" type="xs:string" minOccurs="0" />
+              <xs:element name="OddsArrow" msprop:Generator_ColumnVarNameInTable="columnOddsArrow" msprop:Generator_ColumnPropNameInRow="OddsArrow" msprop:Generator_ColumnPropNameInTable="OddsArrowColumn" msprop:Generator_UserColumnName="OddsArrow" type="xs:string" minOccurs="0" />
+              <xs:element name="Odds" msprop:Generator_ColumnVarNameInTable="columnOdds" msprop:Generator_ColumnPropNameInRow="Odds" msprop:Generator_ColumnPropNameInTable="OddsColumn" msprop:Generator_UserColumnName="Odds" type="xs:string" minOccurs="0" />
+              <xs:element name="OddsCompare" msprop:Generator_ColumnVarNameInTable="columnOddsCompare" msprop:Generator_ColumnPropNameInRow="OddsCompare" msprop:Generator_ColumnPropNameInTable="OddsCompareColumn" msprop:Generator_UserColumnName="OddsCompare" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
